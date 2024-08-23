@@ -40,115 +40,151 @@ class _MyAppState extends State<MyApp> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
               Container(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.laptop,
-                          size: 50,
-                        ),
+              Container(
+                height: 100,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.laptop,
+                              size: 50,
+                            ),
+                          ),
+                          Text('laptop')
+                        ],
                       ),
-                      Text('laptop')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.phone,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.phone,
+                              size: 50,
+                            ),
+                          ),
+                          Text('phone')
+                        ],
                       ),
-                      Text('phone')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.gamepad,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.gamepad,
+                              size: 50,
+                            ),
+                          ),
+                          Text('game')
+                        ],
                       ),
-                      Text('game')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.motorcycle,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.motorcycle,
+                              size: 50,
+                            ),
+                          ),
+                          Text('motor')
+                        ],
                       ),
-                      Text('motor')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.golf_course,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.golf_course,
+                              size: 50,
+                            ),
+                          ),
+                          Text('course')
+                        ],
                       ),
-                      Text('course')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.gif_outlined,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.gif_outlined,
+                              size: 50,
+                            ),
+                          ),
+                          Text('gift')
+                        ],
                       ),
-                      Text('gift')
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(100)),
-                        padding: EdgeInsets.all(10),
-                        child: Icon(
-                          Icons.car_rental,
-                          size: 50,
-                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(100)),
+                            padding: EdgeInsets.all(10),
+                            child: Icon(
+                              Icons.car_rental,
+                              size: 50,
+                            ),
+                          ),
+                          Text('car')
+                        ],
                       ),
-                      Text('car')
-                    ],
-                  )
-                ],
+                    ),
+                  ],
+                ),
+              ),
+              Text(
+                'best selling',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              ),
+              Container(
+                height: 20,
+              ),
+              GridView(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2),
+                children: [],
               )
             ],
           ),
