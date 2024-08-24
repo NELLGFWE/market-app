@@ -192,7 +192,10 @@ class _MyAppState extends State<MyApp> {
                       children: [
                         Container(
                           color: Colors.grey,
-                          child: Image.asset("images/img1.jpg"),
+                          child: Image.asset(
+                            "images/img1.jpg",
+                            width: 120,
+                          ),
                         )
                       ],
                     ),
