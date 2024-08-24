@@ -196,7 +196,17 @@ class _MyAppState extends State<MyApp> {
                         )
                       ],
                     ),
-                  )
+                  ),
+                  Card(
+                    child: Column(
+                      children: [
+                        Container(
+                          color: Colors.grey,
+                          child: Image.asset("images/img2.jpg"),
+                        )
+                      ],
+                    ),
+                  ),
                 ],
               )
             ],
