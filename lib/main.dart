@@ -182,9 +182,22 @@ class _MyAppState extends State<MyApp> {
                 height: 20,
               ),
               GridView(
+                physics: NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2),
-                children: [],
+                children: [
+                  Card(
+                    child: Column(
+                      children: [
+                        Container(
+                          color: Colors.grey,
+                          child: Image.asset("images/img1.jpg"),
+                        )
+                      ],
+                    ),
+                  )
+                ],
               )
             ],
           ),
